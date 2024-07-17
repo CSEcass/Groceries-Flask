@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP</title>
+    <link rel="stylesheet" href="sign_up.css">
+</head>
+<body>
+    <div id="Title">
+        <h1>SIGN UP</h1>
+        <p>Create an account to get the best groceries around!</p>
+    </div>
+
+        <!--SIGN UP LINK vvv-->
+        <div id="OPTIONS">
+            <button><a href="index.html" class="trans">Shop around!</a></button>
+            <button><a href="complain.html" class="trans">Complain?</a></button>
+        </div>
+
+    <form>
+        <label for="fname">First Name</label>
+        <input required type="text" id="fname" name="fname">
+        <br>
+        <label for="lname">Last Name</label>
+        <input required type="text" id="lname" name="lname">
+        <br>
+        <label for="email">Email</label>
+        <input required type="text" id="email" name="email">
+        <br>
+        <!-- radio thingy? Options vvv-->
+        <input required type="radio" id="do" name="subscribe">
+        <label for="subscribe">Subscribe?</label>
+        <br>
+        <input required type="radio" id="dont" name="subscribe">
+        <label for="subscribe">Don't Subscribe?</label>
+        <br>
+        <button><a href="../SIGNED_IN/index.html" class="trans">SUBMIT</a></button>
+    </form>
+
+    <div popover id="ad">
+        <img src="https://cdn11.bigcommerce.com/s-omwfd2x16c/images/stencil/original/image-manager/candy-on-sale.png" alt="Candy ad">
+        <h1>BUY NOW.</h1>
+        <p>Don't be poor, <br> GET SOME CANDY!!!</p>
+    </div>
+    <button popovertarget="ad">CLICK ME!!!</button>
+
+</body>
+</html>

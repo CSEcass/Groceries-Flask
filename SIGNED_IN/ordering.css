@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(186, 186, 186);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#Title{
+    border-color: grey;
+    border-style: groove;
+    border-width: 10px;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+}
+#UhOh{
+    text-align: center;
+    padding: 90px;
+}
+/* options vvv */
+button {
+    background-color: black;
+    border-style: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 50px;
+    transition-duration: 0.4s;
+    color: whitesmoke;
+    margin:auto;
+}
+.trans:hover{
+    transition-duration: 0.4s;
+    color: black;
+    background-color: white;
+    padding: 10px;
+}
+#OPTIONS{
+    text-decoration: none;
+    border-color: grey;
+    border-style: groove;
+    border-width: 10px;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    transition-duration: 0.4s;
+}
+/* options ^^^^*/
