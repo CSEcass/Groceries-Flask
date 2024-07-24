@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="../../static/styles/NOT_SIGNED_IN/sign_up.css">
 </head>
 <body>
+        <!--PROFILE vvv-->
+        <div id="Profile">
+            <h1> Name: {{fname}} {{lname}} </h1>
+            <p> Email: {{email}} </p>
+        </div>
+        
     <div id="Title">
         <h1>SIGN UP</h1>
         <p>Create an account to get the best groceries around!</p>
@@ -14,11 +20,12 @@
 
         <!--SIGN UP LINK vvv-->
         <div id="OPTIONS">
-            <button><a href="index.html" class="trans">Shop around!</a></button>
-            <button><a href="complain.html" class="trans">Complain?</a></button>
+            <button><a href="/" class="trans">Shop around!</a></button>
+            <button><a href="/complain" class="trans">Complain?</a></button>
         </div>
-
-    <form>
+        <!--FORM vvv-->
+    <form action="{{ url }}" method="POST">
+            <!-- Text input vvv-->
         <label for="fname">First Name</label>
         <input required type="text" id="fname" name="fname">
         <br>
@@ -28,14 +35,15 @@
         <label for="email">Email</label>
         <input required type="text" id="email" name="email">
         <br>
-        <!-- radio thingy? Options vvv-->
+            <!-- Radio Options vvv-->
         <input required type="radio" id="do" name="subscribe">
         <label for="subscribe">Subscribe?</label>
         <br>
         <input required type="radio" id="dont" name="subscribe">
         <label for="subscribe">Don't Subscribe?</label>
         <br>
-        <button><a href="../SIGNED_IN/index.html" class="trans">SUBMIT</a></button>
+        <input type="submit">
+        <br>
     </form>
 
     <div popover id="ad">
