@@ -11,10 +11,6 @@ body {
     color: whitesmoke;
     text-align: center;
 }
-#UhOh{
-    text-align: center;
-    padding: 90px;
-}
 /* options vvv */
 button {
     background-color: black;
@@ -48,3 +44,51 @@ a {
     transition-duration: 0.4s;
 }
 /* options ^^^^*/
+
+/* PFP AND WELCOME MSG vvvv*/
+#PFP {
+    display: inline-block;
+    border-style: groove;
+    border-width: 5px;
+    border-color: grey;
+    border-radius: 20px;
+    background-color: lightgray;
+    padding: 60px;
+    text-align: center;
+}
+#Welcome { 
+    display: inline-block;
+    padding-left: 10px;
+}
+/* DISPLAY USER INFO (TOP AND BOTTOM) vvvv*/
+#InfoTOP{
+    border-style: groove;
+    border-width: 5px;
+    border-color: grey;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+}
+#InfoBOTTOM{
+    border-style: groove;
+    border-width: 5px;
+    border-color: grey;
+    background-color: lightgray;
+    padding-left: 10px;
+}
+.UserClass{
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+.UserInfo{
+    text-decoration: underline;
+    display: inline-block;
+}
+/* THOUGHTFUL MSG vvvvv*/
+#ThoughtMsg{
+text-align: end;
+}
+/* */
