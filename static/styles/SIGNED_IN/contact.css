@@ -3,6 +3,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #Title {
+    display: inline-block;
     border-color: grey;
     border-style: groove;
     border-width: 10px;
@@ -45,18 +46,16 @@ a:hover{
     color: yellow;
 }
 /* OPTIONS ^^^^*/
-
 .p {
     text-align: center;
-
 }
 .h1 {
     text-align: center;
     padding: 10px;
 }
 /* PROFILE VVVV */
-.profile{ 
-    display: block;
+#Profile{ 
+    display: inline-block;
     border-color: grey;
     border-style: groove;
     border-width: 10px;

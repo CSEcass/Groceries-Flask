@@ -7,6 +7,37 @@
     <link rel="stylesheet" href="../../static/styles/SIGNED_IN/profile.css">
 </head>
 <body>
-    
+    <!--NAV BAR vvv-->
+    <div id="OPTIONS">
+        <button><a href="/" class="trans">Sign Out</a></button>
+        <button><a href="/shop2" class="trans">Shop around</a></button>
+        <button><a href="/2" class="trans">Info</a></button>
+        <button><a href="/contact" class="trans">Contact Us</a></button>
+    </div>
+    <!-- USER IMAGE & NAME vvvv -->
+    <div id="PFP">
+        <p> N/A </p>
+    </div>
+    <div id="Welcome">
+        <h1> Welcome, {{fname}}. </h1>
+    </div>
+    <!-- USER INFO DISPLAY -->
+     <div id="InfoTOP">
+        <h2> User Info: </h2>
+     </div>
+     <div id="InfoBOTTOM">
+        <h3> First Name: </h3>
+        <h3 class="UserInfo"> {{fname}} </h3>
+        <h3> Last Name: </h3>
+        <h3 class="UserInfo"> {{lname}}</h3>
+        <h3> Email: </h3>
+        <h3 class="UserInfo"> {{lname}}</h3>
+        <h3> Address: </h3>
+        <h3 class="UserInfo"> {{address}}</h3>
+     </div>
+    <!-- THOUGHTFUL MESSAGE -->
+    <div id="ThoughtMsg">
+        <p>We're happy to have you on board with us. We greatly appreciate you!</p>
+    </div>
 </body>
 </html>
