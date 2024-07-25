@@ -7,21 +7,18 @@
     <link rel="stylesheet" href="../../static/styles/NOT_SIGNED_IN/sign_up.css">
 </head>
 <body>
-        <!--PROFILE vvv-->
-        <div id="Profile">
-            <h1> Name: {{fname}} {{lname}} </h1>
-            <p> Email: {{email}} </p>
-        </div>
-        
+        <!--TITLE vvv-->
     <div id="Title">
         <h1>SIGN UP</h1>
         <p>Create an account to get the best groceries around!</p>
     </div>
 
-        <!--SIGN UP LINK vvv-->
+        <!--NAV BAR vvv-->
         <div id="OPTIONS">
-            <button><a href="/" class="trans">Shop around!</a></button>
-            <button><a href="/complain" class="trans">Complain?</a></button>
+            <button><a href="/" class="trans">Shop around</a></button>
+            <button><a href="/Info" class="trans">Home</a></button>
+            <button><a href="/" class="trans">Info</a></button>
+            <button><a href="/complain" class="trans">Complain</a></button>
         </div>
         <!--FORM vvv-->
     <form action="{{ url }}" method="POST">

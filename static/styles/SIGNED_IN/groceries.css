@@ -3,6 +3,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #Title {
+    display: inline-block;
     border-color: grey;
     border-style: groove;
     border-width: 10px;
@@ -98,4 +99,14 @@ img {
 }
 img:hover{
     height: 220px;
+}
+/* PROFILE VVVV */
+#Profile{ 
+    display: inline-block;
+    border-color: grey;
+    border-style: groove;
+    border-width: 10px;
+    background-color: black;
+    color: whitesmoke;
+    text-align: left;
 }

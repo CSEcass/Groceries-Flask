@@ -3,23 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grocery stores</title>
+    <title>Shop</title>
     <link rel='stylesheet'href="../../static/styles/SIGNED_IN/groceries.css">
 </head>
 <body>
     <!--PROFILE vvv-->
     <div id="Profile">
-        <h1> Name: {{fname}} {{lname}} </h1>
-        <p> Email: {{email}} </p>
+        <h1> Account </h1>
+        <p class="TEXT"> Name: <a href="/Profile">{{fname}} {{lname}}</a> </p>
+        <p class="TEXT"> Email: {{email}} </p>
     </div>
     <!--TITLE vvv-->
     <div id="Title">
         <h1>Groceries:</h1>
-        <p>(prices without tax)Click on an item's name to order it!</p>
+        <p>(prices WITH tax)Click on an item's name to order it!</p>
     </div>
-    <!--SIGN UP LINK vvv-->
+    <!--NAV BAR LINK vvv-->
     <div id="OPTIONS">
-        <button><a href="/" class="trans">Sign Out?</a></button>
+        <button><a href="/" class="trans">Sign Out</a></button>
+        <button><a href="/2" class="trans">Info</a></button>
         <button><a href="/contact" class="trans">Contact Us</a></button>
     </div>
     <!--Sale Items below vvvv-->

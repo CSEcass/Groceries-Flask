@@ -15,7 +15,7 @@ body {
     text-align: center;
     padding: 90px;
 }
-/* options vvv */
+/* NAV BAR vvv */
 button {
     background-color: black;
     border-style: none;
@@ -47,4 +47,4 @@ a {
     color: whitesmoke;
     transition-duration: 0.4s;
 }
-/* options ^^^^*/
+/* NAV BAR ^^^^*/

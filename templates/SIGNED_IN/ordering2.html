@@ -3,22 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ORDER GROCERIES</title>
+    <title>Order</title>
     <link rel="stylesheet" href="../../static/styles/SIGNED_IN/ordering.css">
 </head>
 <body>
+    <!--PROFILE vvv-->
+    <div id="Profile">
+        <h1> Name: <a href="/Profile">{{fname}} {{lname}}</a> </h1>
+        <p> Email: {{email}} </p>
+    </div>
+    <!-- TITLE vvv -->
     <div id="Title">
         <h1>Ordering:</h1>
         <p>(without tax)</p>
     </div>
-
-    <!--OPTIONS vvv-->
+    <!-- NAV BAR vvv -->
         <div id="OPTIONS">
-            <button><a href="/2" class="trans">Shop around!</a></button>
+            <button><a href="/" class="trans">Sign Out</a></button>
+            <button><a href="/shop2" class="trans">Shop around</a></button>
+            <button><a href="/2" class="trans">Info</a></button>
             <button><a href="/contact" class="trans">Contact Us</a></button>
-            <button><a href="/" class="trans">Sign Out?</a></button>
         </div>
-
+    <!--ORDER INFO vvv-->
     <div id="UhOh">
         <h1> SUCCESS!</h1>
         <p>Your order has been placed, it should arrive within 1-2 business days to your address.</p>
