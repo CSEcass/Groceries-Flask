@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, url_for
 
 app = Flask(__name__)
 
-# globally stored user input(From sign_in page)
+# >>>globally stored user input(From sign_in page)
 class USER:
     def __init__ (self, fname = None, lname = "Re", email = None, address = None):
         self.fname = fname
