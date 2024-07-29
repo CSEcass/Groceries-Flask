@@ -2,8 +2,25 @@ body {
     background-color: rgb(186, 186, 186);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.AccTitle{
+    display: flex;
+}
+/* PROFILE VVVV */
+#Profile{ 
+    border-color: grey;
+    border-style: groove;
+    border-width: 10px;
+    background-color: black;
+    color: whitesmoke;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px;
+    height: 150px;
+    width: fit-content;
+}
+/* TITLE VVVV*/
 #Title {
-    display: inline-block;
     border-color: grey;
     border-style: groove;
     border-width: 10px;
@@ -11,8 +28,10 @@ body {
     color: whitesmoke;
     text-align: center;
     font-size: 20px;
+    height: 150px;
+    width: 100%;
 }
-/* NAV BAR vvv */
+/* OPTIONS/NAV VVVV */
 button {
     background-color: black;
     border-style: none;
@@ -46,8 +65,7 @@ a {
 a:hover{
     color: yellow;
 }
-/* NAV BAR ^^^^*/
-
+/* Text Placeholder VVVV*/
 .p {
     text-align: center;
 
@@ -56,13 +74,8 @@ a:hover{
     text-align: center;
     padding: 10px;
 }
-/* PROFILE VVVV */
-#Profile{ 
-    display: inline-block;
-    border-color: grey;
-    border-style: groove;
-    border-width: 10px;
-    background-color: black;
-    color: whitesmoke;
-    text-align: left;
+/* Thoughtful msg */
+#ThoughtMsg {
+    margin-top: 28.5%;
+    text-align: end;
 }
