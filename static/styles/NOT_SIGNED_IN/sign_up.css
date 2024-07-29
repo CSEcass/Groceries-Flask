@@ -1,8 +1,11 @@
 body {
     background-color: rgb(186, 186, 186);
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
 }
 #Title {
+    margin: 8px;
+    margin-top: 40px;
     border-color: grey;
     border-style: groove;
     border-width: 10px;
@@ -30,6 +33,10 @@ button {
     padding: 10px;
 }
 #OPTIONS{
+    box-sizing: border-box;
+    position: fixed;
+    top: 0px;
+    width: 100%;
     text-decoration: none;
     border-color: grey;
     border-style: groove;

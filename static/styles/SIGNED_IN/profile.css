@@ -29,6 +29,7 @@ button {
     padding: 10px;
 }
 #OPTIONS{
+    margin: 0px;
     text-decoration: none;
     border-color: grey;
     border-style: groove;
